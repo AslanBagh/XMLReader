@@ -15,6 +15,7 @@ public class XMLReader {
             DocumentBuilder dBuilder = builderFactory.newDocumentBuilder();
             Document document = (Document) dBuilder.parse(XMLReader.class.getResourceAsStream("/Settings.xml"));
 
+            []
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
